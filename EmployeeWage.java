@@ -3,7 +3,7 @@ public class EmployeeWage{
         System.out.println("welcome to employee wage problem");
 
         final int PRESENT = 1;
-        int var = (int) Math.floor(Math.random() * 10) % 2;
+        int var = (int) (Math.random() * 10) % 2;
         if (var == PRESENT)
             System.out.println(" Employee is Present");
         else
